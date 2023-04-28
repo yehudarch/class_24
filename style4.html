@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- or -->
+    <style>
+        @import 'style.css';
+    </style>
+    <style>
+        /* div p {color: red;} */
+
+        div.my-class {
+            background-color: aqua;
+            color: red;
+        }
+        .class2 {
+            background-color: blueviolet;
+            font-weight: 800;
+        }
+        input {
+            border-radius: 20px;
+        }
+        input[type='password'] {
+            background-color: gray;
+        }
+        input, p, #abc {
+            color: blue;
+            font-weight: 900;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <input placeholder="enter name"/>
+    <br>
+    <input type="password" placeholder="enter password"/>
+    <br>
+    <button class="class2" id="#abc">button1</button>
+    <br>
+    <button class="my-class">button1</button>
+    <div class="my-class">
+        <p>div-p1</p>
+        <p>div-p2</p>
+        <h4>div-h4</h4>
+        <button>div-button</button>
+    </div>
+</body>
+</html>

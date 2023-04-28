@@ -1,0 +1,11 @@
+/* button {
+    width: 50%;
+    background-color: blueviolet;
+} */
+p {
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 20px;
+    font-weight: 900;
+    text-shadow: 5px 2px 3px grey;
+}

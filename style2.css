@@ -1,0 +1,30 @@
+@media screen and (max-width: 600px) {
+    div {
+        font-size: 1.3rem;
+    }
+    
+}
+
+.image_title {
+    direction: rtl;
+    font-size: 30px; 
+    max-width: 200px; 
+    padding: 10px;
+}
+
+div.title_section {
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    order: blue solid 2px; 
+    margin: 10; 
+    padding: 20px;
+
+}
+
+table, th, tr td {
+    border: 3px solid black;
+    padding: 5px;
+    border-collapse: collapse;
+    background-color: white;
+}
